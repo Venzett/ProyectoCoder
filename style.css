@@ -90,3 +90,30 @@ a:link {
     justify-content:space-evenly;
     background-color:black;
 }
+
+button{
+    border-radius: 40px;
+    border: 2px solid red;
+    background-color: rgb(201, 201, 239);
+    color: black;
+    
+    
+    padding: 10px 20px 20px 20px;
+    transition: .5s,color .5s;
+    
+}
+
+button:hover {
+    background:  red
+}
+    
+
+
+
+.b1 {
+    font-family: 'Bebas', sans-serif;
+    font: bolder;
+    
+    
+    
+}
