@@ -4,14 +4,31 @@
 }
 
 body {
-    background-color: rgb(94, 84, 84);
+    background-color: rgb(197, 176, 176);
+    
+}
+.nav-container {
+    background-color: rgb(172, 38, 38);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.navul {
+    display: flex;
+    text-justify:auto;
+    height: 60px;
+
+    
+    
 }
 
 #nav-bar-papa {
     background-color: red;
-    padding: 30px;
+    height: 0px;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
+      
   
 }
 
@@ -19,11 +36,17 @@ body {
     display: inline;
     margin: 65px;
     font-family: 'Bebas', sans-serif;
-    font-size: 20px; 
+    font-size: 20px;
+}
+
+.navlink {
+    color: #000000;
+
 }
 
 a:link {
     text-decoration: none;
+    
 }
 
 .banner {
@@ -48,15 +71,12 @@ a:link {
 }
 
 
-.nav-container {
-    background-color: red;
-    padding: 30px;
-    display: flex;
-    justify-content: space-around;  
-}
+
 
 .inicio {
-   /*quiero cambiar la forma del boton pero aun no se cmo*/
+    background-color: black;
+    border: blue;
+    
 }
 
 .banerpag {
@@ -160,12 +180,13 @@ button{
     background-color: rgb(201, 201, 239);
     color: black;
     padding: 20px 20px 20px 20px;
+
     transition: .5s,color .5s;
     
 }
 
 button:hover {
-    background:  red
+    background:  rgb(2, 18, 70)
 }
     
 
