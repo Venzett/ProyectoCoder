@@ -37,6 +37,7 @@ body {
     margin: 65px;
     font-family: 'Bebas', sans-serif;
     font-size: 20px;
+    line-height: 7 0px;
 }
 
 .navlink {
@@ -70,6 +71,25 @@ a:link {
     color: blanchedalmond;
 }
 
+.mapp{
+    font-size: 24px;
+    text-align:center;
+    line-height: 300px;
+    margin: 0px;
+    width: 50%;
+    
+}
+
+.ppagina {
+    font-size: 24px;
+    display: flex;
+    text-align:center;
+    width: 50%;
+    
+    padding-left: 5rem;
+
+}
+
 
 
 
@@ -87,13 +107,15 @@ a:link {
     font-family: 'Bebas', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: rgb(248, 248, 248);
 }
 
 .cursos-img {
     display: flex;
     align-items: center;
+    background-color: gray;
+    color: blanchedalmond;
    
     
 }
